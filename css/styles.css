@@ -32,6 +32,7 @@ header h3 {
   font-size: 24px;
   margin-bottom: 15px;
   color: var(--secondary-color);
+  padding:22px 0;
 }
 
 .cta-text {
@@ -60,4 +61,13 @@ button:hover {
 a {
   text-decoration: none;
   font-family:monospace;
+}
+
+
+@media(max-width:768px){
+    header h3{
+        padding:0 18px;
+        font-size: 22px;
+        line-height: 1.6;
+    }
 }

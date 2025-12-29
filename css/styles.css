@@ -1,0 +1,63 @@
+:root {
+  --primary-font: "Space Grotesk", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+  --tertiary-font: "IBM Plex Sans", sans-serif;
+  --primary-color: #1e1e1e;
+  --secondary-color: #f1eff3;
+  --accent-color: #7151ffbd;
+  --second-accent: #2e2d2d4b;
+}
+
+header {
+  background-image: url("/media/hero-bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 150px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: var(--primary-font);
+  font-size: 72px;
+  margin: 0;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+header h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.cta-text {
+  color: var(--secondary-color);
+  font-family: var(--tertiary-font);
+  font-size: 18px;
+}
+
+button {
+  margin: 10px auto;
+  padding: 0 15px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+  background-color: var(--second-accent);
+  color: var(--accent-color);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  font-family:monospace;
+}

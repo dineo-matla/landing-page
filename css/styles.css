@@ -8,8 +8,12 @@
   --second-accent: #2e2d2d4b;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("/media/hero-bg-img.jpg");
   background-size: cover;
   background-position: center;
@@ -76,10 +80,11 @@ a {
   }
 }
 
+
 /*Footer styles*/
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/media/hero-bg-img.jpg");
 
   background-position: center;
@@ -134,12 +139,23 @@ footer li {
   list-style: none;
 }
 
+.logo-block{
+    margin-top:20px;
+}
+
+.logo{
+    display:block;
+    margin:0 auto;
+    border-radius: 50%;
+  box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.7);
+
+}
+
 @media (max-width: 768px) {
   .footer-section {
     grid-template-columns: 1fr; /* Stack items in one column */
     grid-gap:20px;
   }
-
  
   .footer-text{
     text-align: start;

@@ -80,11 +80,144 @@ a {
   }
 }
 
+@media (max-width:420px){
+     header h1 {
+    font-size: 64px;
+  }
+
+  header h3 {
+    padding: 0 18px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+/*About Section*/
+.about-container{
+    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 80px 0;
+  background-color: var(--secondary-color);
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap:10px;
+}
+
+.about-container h2{
+    font-family: var(--primary-font);
+    font-size: 35px;
+    margin:0 auto;
+    text-align: center;
+    color:var(--accent-color);
+}
+
+.about-info{
+font-size: 25px;
+    font-family: var(--tertiary-font);
+    padding: 0 25px;
+    line-height: 1.7;
+    color:var(--primary-color);
+    opacity: 80%;
+}
+
+.about-img{
+   padding: 0 55px; 
+   max-width: 480px;
+   margin:10px auto;
+   border-radius: 25%;
+}
+
+.about-subsection{
+    margin: 22px 0;
+}
+
+.about-subsection h2{
+    margin: 30px 0;
+}
+
+@media(max-width:1200px){
+    .about-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:15px;
+}
+
+.about-container{
+    padding:60px 0;
+}
+
+.about-container h2{
+    font-size: 44px;
+    opacity:80%;
+}
+
+.about-info{
+font-size: 22px;
+}
+
+.about-img{
+   padding: 0 50px; 
+   max-width: 450px;
+}
+}
+
+@media (max-width:768px){
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+
+.about-container{
+    padding:50px 0;
+}
+
+.about-container h2{
+    font-size: 28px;
+    opacity:90%;
+}
+
+.about-info{
+font-size: 15px;
+margin-bottom:28px;
+
+}
+
+.about-img{
+   padding: 0 35px; 
+   max-width: 280px;
+}
+}
+
+@media (max-width:420px){
+ 
+.about-container h2{
+    font-size: 18px;
+    opacity:90%;
+    padding:0 12px;
+}
+
+.about-info{
+font-size: 15px;
+text-align: center;
+}
+
+.about-img{
+   padding: 0 35px; 
+   max-width: 180px;
+}
+}
+
 
 /*Footer styles*/
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 8)),
     url("/media/hero-bg-img.jpg");
 
   background-position: center;
@@ -114,7 +247,6 @@ footer h3 {
   color: var(--secondary-color);
   margin: 12px 0;
   line-height: 1.6;
-  text-align: justify;
 }
 
 .resource-link {
@@ -160,5 +292,28 @@ footer li {
   .footer-text{
     text-align: start;
     margin:5px 0;
+  }
+}
+
+@media(max-width:420px){
+
+footer h3{
+    text-align: center;
+
+}
+
+    .footer-text{
+    text-align: center;
+    margin:8px 0;
+  }
+
+  .resource-link{
+    text-align: center;
+    font-size:12px;
+  }
+
+  .logo{
+    width:100px;
+    height:100px;
   }
 }

@@ -360,9 +360,56 @@ a {
   height: 100%;
   aspect-ratio: 16/9;
 }
+
+.map-embed {
+  background-color: var(--secondary-color);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+
+.map-embed h2 {
+  font-family: var(--primary-font);
+  font-size: 35px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.map-embed p {
+  font-size: 25px;
+  font-family: var(--tertiary-font);
+  padding: 0 25px;
+  line-height: 1.7;
+  color: var(--primary-color);
+  opacity: 80%;
+}
+
+.globe-img {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .visual-embeds h2 {
     font-size: 48px;
+  }
+
+  .map-embed h2 {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .map-embed p {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+
+  .globe-img {
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -378,6 +425,22 @@ a {
   .visual-embeds p {
     font-size: 16px;
     text-align: center;
+  }
+
+  .map-embed h2 {
+    font-size: 18px;
+  }
+
+  .map-embed p {
+    font-size: 15px;
+    line-height: 1.3;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .globe-img {
+    width: 250px;
+    height: 250px;
   }
 }
 

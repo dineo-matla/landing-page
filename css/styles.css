@@ -210,6 +210,71 @@ a {
   }
 }
 
+/*Features sections/Cards */
+
+.features-container {
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 80px 0;
+  color: var(--secondary-color);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.features-container h2 {
+  font-family: var(--primary-font);
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.features-text {
+  color: var(--accent-color);
+  font-family: var(--tertiary-font);
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+.cards {
+  width: 100%;
+  max-width: 380px;
+  height: 520px;
+  background-color: var(--secondary-color);
+  margin: 12px auto;
+  box-shadow: 5px 6px 8px rgba(11, 1, 23, 0.7);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.cards h4 {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 28px;
+  padding: 0 20px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.card-btn {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.card-btn .cta-text {
+  color: var(--accent-color);
+}
+
 /*Footer styles*/
 
 footer {

@@ -101,6 +101,51 @@ a {
   background-color: var(--secondary-color);
 }
 
+.features-container .table-section-title {
+  font-family: var(--primary-font);
+  font-size: 35px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.features-container .table-section-intro {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.concept-table {
+  padding: 20px 10px;
+  color: var(--secondary-color);
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--second-accent);
+  overflow: hidden;
+}
+
+thead {
+  background-color: rgba(156, 167, 255, 0.08);
+}
+
+th,
+td {
+  font-family: var(--tertiary-font);
+  font-size: 14px;
+  padding: 5px 5px;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+tbody tr {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -129,6 +174,7 @@ a {
   max-width: 480px;
   margin: 10px auto;
   border-radius: 25%;
+  filter: brightness(110%);
 }
 
 .about-subsection {

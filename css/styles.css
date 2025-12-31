@@ -438,6 +438,18 @@ tbody tr {
 }
 
 @media (max-width: 768px) {
+  .video-group-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 5px;
+  }
+
+  .video-group-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+
   .visual-embeds h2 {
     font-size: 48px;
   }
